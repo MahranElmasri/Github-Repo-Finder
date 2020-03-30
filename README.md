@@ -12,7 +12,7 @@
 
 1. clone the project folder.
 
-2. open the terminal go to project direcrory.
+2. open the terminal and write `cd Github-Repo-Finder`.
 
 3. install server dependancies by `npm install`.
 
@@ -22,7 +22,7 @@
 
 1. back to project directory by `cd ..`.
 
-2. run `npm run dev` to run both side server and client.
+2. write `npm run dev` to run both server and client.
 
 ## API Endpoints Table
 
