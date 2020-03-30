@@ -27,12 +27,11 @@
 ## API Endpoints Table
 
 Using the endpoints in the following table
-
-| Http verb | Endpoint                              | Description                                              |
-|-----------|---------------------------------------|----------------------------------------------------------|
-| GET       | `/repos/search/?searchQ`              | endpoint to seach for repository.                        |
-| GET       | `/bookmarks/list`                     | endpoint to return us a list of bookmarked repositories. |
-| GET       | `/bookmarks/bookmark/:repository_id`  | add a repository by its id to bookmark list.             |
-| GET       | `/bookmarks/remove/?id=repository_id` | to delete the bookmark of a repository by its id         |
-| POST      | `/auth/users/register`                | register new user with name, username, password          |
-| POST      | `/auth/users/login`                   | user login with username, password                       |
+| Http verb | Endpoint                                  | Description                                              |
+|-----------|-------------------------------------------|----------------------------------------------------------|
+| GET       | `/api/repos/search/?q=searchquery`        | endpoint to seach for repository.                        |
+| GET       | `/api/bookmarks/list`                     | endpoint to return us a list of bookmarked repositories. |
+| GET       | `/api/bookmarks/bookmark/:repository_id`  | add a repository by its id to bookmark list.             |
+| GET       | `/api/bookmarks/remove/?id=repository_id` | to delete the bookmark of a repository by its id         |
+| POST      | `/api/users/register`                     | register new user with name, username, password          |
+| POST      | `/api/users/login`                        | user login with username, password                       |
