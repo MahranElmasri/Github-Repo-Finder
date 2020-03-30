@@ -1,0 +1,23 @@
+{
+  "name": "repos_finder",
+  "version": "1.0.0",
+  "description": "repos_finder_challenge_code ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Mahran Elmasri",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "concurrently": "^5.1.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express-validator": "^6.4.0"
+  }
+}
